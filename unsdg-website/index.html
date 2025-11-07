@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UN SDG - Sustainable Energy & Climate Action</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <h1>🌍 UN SDG</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#actions">Take Action</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Energy Saving & Climate Action</h2>
+        <p>Join us in building a sustainable future through renewable energy and responsible climate practices</p>
+        <a href="#actions" class="btn-primary">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Our Mission</h2>
+        <p>We are committed to achieving the United Nations Sustainable Development Goals through promoting energy efficiency, renewable energy adoption, and climate action initiatives.</p>
+        <div class="stats">
+          <div class="stat-card">
+            <h3>13%</h3>
+            <p>Reduction in Energy Use</p>
+          </div>
+          <div class="stat-card">
+            <h3>45%</h3>
+            <p>Renewable Energy Target</p>
+          </div>
+          <div class="stat-card">
+            <h3>2030</h3>
+            <p>Net Zero Goal</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="news">
+      <div class="container">
+        <h2>Latest News & Updates</h2>
+        <div class="news-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="energy">Energy</button>
+          <button class="filter-btn" data-filter="climate">Climate</button>
+          <button class="filter-btn" data-filter="technology">Technology</button>
+        </div>
+        <div id="news-container" class="news-grid">
+          <!-- News articles will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <section id="actions" class="actions">
+      <div class="container">
+        <h2>Take Action Today</h2>
+        <div class="action-cards">
+          <div class="action-card">
+            <h3>💡 Reduce Energy</h3>
+            <p>Switch to LED bulbs, unplug devices when not in use, and optimize your home's energy consumption.</p>
+          </div>
+          <div class="action-card">
+            <h3>🌱 Go Renewable</h3>
+            <p>Support renewable energy sources and consider solar panels for your home or business.</p>
+          </div>
+          <div class="action-card">
+            <h3>🚶 Reduce Carbon</h3>
+            <p>Walk, bike, or use public transport. Every small step helps reduce your carbon footprint.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Get Involved</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 UN SDG Initiative. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
